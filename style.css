@@ -34,21 +34,24 @@ footer {
 }
 
 .card .tile-image{
-  filter: drop-shadow(4px 8px 10px gray);
+  filter: drop-shadow(4px 8px 10px rgb(0, 0, 0));
   margin: 10px;
 }
 .right{
   float: right;
 }
-.card{width:45%
+.card{
+  width:45%
 }
-div .card{background-color: #6fe1f5;
-  filter: drop-shadow(4px 8px 10px rgb(168, 168, 168));
+div .card{
+  background-color: #6fe1f5;
+  filter: drop-shadow(4px 8px 10px rgb(0, 0, 0));
 }
 
 p{margin:10px
 }
-.card-title{filter: drop-shadow(4px 8px 10px gray);
+.card-title{
+  filter: drop-shadow(4px 8px 10px rgb(0, 0, 0));
   margin: 10px;
 }
 
@@ -60,7 +63,8 @@ p{margin:10px
     text-align: center;
   }
 
-  .card{display: block;
+  .card{
+    display: block;
   width: 100%;
   margin-bottom: 30px;
   text-align: justify;
@@ -72,3 +76,5 @@ p{margin:10px
   object-fit: cover;
 }
   }
+@media(min-width:319px) and (max-width:480px) {
+      body {background-color: #9094ec;}}
