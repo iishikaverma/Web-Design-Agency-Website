@@ -77,4 +77,9 @@ p{margin:10px
 }
   }
 @media(min-width:319px) and (max-width:480px) {
-      body {background-color: #9094ec;}}
+      body {background-color: #9094ec;}
+  .card .tile-image{
+        margin-bottom: 10px;
+        width: 90%;
+        height: 90% ;
+}
